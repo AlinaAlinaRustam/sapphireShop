@@ -1,0 +1,46 @@
+.cart_header{
+    width: 20%;
+   background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    right: 0%;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+}
+.cart_header.activecartslider{
+    visibility: visible;
+}
+.title_cart h1{
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+.cart_fun{
+    display: flex;
+    padding: 10px;
+   
+    gap: 10px;
+}
+.cart_fun img{
+    width: 100px;
+  
+}
+.total_price{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.total_cart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.total_cart button{
+padding: 10px;
+background-color: black;
+color: white;
+width: 252.5px;
+
+}

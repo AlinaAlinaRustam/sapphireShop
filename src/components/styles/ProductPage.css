@@ -1,0 +1,121 @@
+.ProductHeader{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    padding: 50px;
+}
+.ProductTitle h3{
+font-size: 30px;
+align-items: center;
+padding: 30px 0px;
+}
+.ProductSec{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+   
+   
+}
+
+ 
+.ProductfilterSection {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5px 15px;
+  }
+  
+  .filterSection {
+    margin-right: auto; 
+    
+
+}
+.filterSection button{
+    font-size: 15px;
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    border: none;
+}
+.featureSection button{
+    font-size: 15px;
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    border: 1px solid  rgb(220, 220, 224);
+    width: 150px;
+    height: 38px;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    border-radius: 100px;
+}
+  
+  .featureSection {
+    margin-left: auto;
+  }
+.ProductSecCollection p{
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+.ProductSec img{
+    border-radius: 100%;
+    width: 120px;
+    border: 2px solid grey;
+}
+.ProductCatsec{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+   padding: 15px;
+   
+}
+.ProductCatdis p , h3{
+    padding: 5px;
+    font-size: 13px;
+}
+.ProductCatProd{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ProductCatdis h3 a{
+    color: black;
+}
+.ProductCatTitle{
+    display: flex;
+    padding: 10px;
+}
+.ProductCatTitle .ProductCatTitleBtn{
+    width: 600px;
+    display: flex;
+    gap: 12px;
+    height: 40px;
+    padding: 0px 20px;
+    
+    
+}
+.ProductCatTitle .ProductCatTitleBtn button{
+    border-radius: 40px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+}
+.ProductCatImg{
+    position: relative;
+}
+.ProductCatProd .ProductCatImg  .saleTag{
+    background-color: red;
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-radius: 100%;
+    left: 3%;
+    padding: 10px ;
+    top: 5%;
+    font-size: 12px;
+}
+
+

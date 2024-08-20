@@ -1,0 +1,112 @@
+a{
+color: rgb(79, 74, 74);
+}.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    align-items: center;
+    
+  
+}
+.left-header{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.main-logo{
+    width: 25rem;
+}
+.serachBar input{
+    width: 600px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color:  rgb(151, 154, 151);
+    align-items: center;
+   padding: 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+
+
+}
+.serachBar{
+    position: relative;
+    text-align: center;
+
+}
+ .search-icon{
+    position: absolute;
+   right: 2%;
+   top: 20%;
+  font-size: 20px;
+   
+}
+.main-icons{
+    display: flex;
+    gap: 20px;
+   font-size: 30px;
+}
+.navbar-links > ul{
+    display: flex;
+    gap: 50px;
+    font-size: 15px;
+    padding: 15px;
+   
+    justify-content: center;
+}
+.navbar-links> ul> li {
+    color: rgba(0,0,0);
+    letter-spacing: 1px;
+}
+.navbar-links >ul >li> a{
+position: relative;
+}
+.Dropdown{
+    position: absolute;
+    display: flex;
+    gap: 60px;
+    padding: 20px 40px;
+    background-color: aliceblue;
+    left: -2px;
+    width: 126.5rem;
+    top: 15rem;
+    height: 40rem;
+    box-shadow: 0px 0px 5px 5px #aaaaaa;
+   visibility: hidden;
+   transition: all 0.3s;
+   z-index: 90;
+   opacity: 0;
+}
+.navbar-links >ul >li:hover .Dropdown{
+    visibility: visible;
+    opacity: 1;
+
+}
+.dropdownImg img{
+    width: 220px;
+    
+}
+.DropdownList .NestedDropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+}
+
+.DropdownList{
+    display: flex;
+    gap: 80px;
+    
+}
+.DropdownList > li > h3{
+padding: 10px 0px;
+}
+.DropdownList .NestedDropdown >li {
+width: 200px;
+}
+.DropdownList .NestedDropdown >li{
+    padding: 10px 0px;
+}
+/* .DropdownList .NestedDropdown >li> a{
+    color: rgba(0,0,0);
+} */

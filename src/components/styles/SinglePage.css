@@ -1,0 +1,91 @@
+p{
+    color: rgba(0,0,0,0.7);
+}
+.SinglePage{
+    display: flex;
+    padding: 10px 30px;
+    gap: 30px;
+}
+.singlePageLeft{
+display: flex;
+gap: 10px;
+width: 60%;
+
+}
+.div1, .div2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.TitleProduct h1, p{
+font-size: 20px;
+}
+.TitleProduct .AddBtn{
+width: 150px;
+height: 40px;
+border-radius: 100px;
+border: none;
+color: rgb(253, 252, 252);
+background-color: black;
+}
+.CountBtn{
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    border: none;
+    color: rgb(253, 252, 252);
+background-color: black;
+}
+.count{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.productDiscription p{
+    font-size: 13px;
+
+}
+.productDiscription h1{
+    font-size: 20px;
+}
+.NextBtn button{
+    
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: rgb(253, 252, 252);
+color: black;
+    
+}        
+.NextBtn{
+    display: flex;
+justify-content: center;
+}      
+.singlePageRight{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+} 
+.prodDetail .content{
+font-size: 12px;
+display: flex;
+align-items: center;
+}
+.prodDetail .content p {
+    font-size: 13px;
+}
+.prodDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.ReviewNote{
+    display: flex;
+    align-items: center;
+}
+.ReviewNote p{
+    font-size: 13px;
+   
+}
+
